@@ -1,0 +1,54 @@
+.coin{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.coin-card{
+    text-align: center;
+    color: black;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.coin-card >img{
+    width: 90px;
+    height: 90px;
+}
+
+.coin-card:hover{
+    transform: scale(1.1);
+}
+
+.pagination{
+    display: flex;
+    width: 80%;
+    margin-inline: auto;
+    padding-block: 5px;
+    overflow-x: auto;
+}
+
+.pagination >button{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.radio{
+    width: 80%;
+    margin-inline: auto;
+    padding: 5px;
+}
+
+.radio >label{
+    margin-right: 10px;
+}

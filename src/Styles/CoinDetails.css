@@ -1,0 +1,109 @@
+.radioCD {
+  width: 80%;
+  margin-inline: auto;
+  padding: 5px;
+}
+
+.radioCD > label {
+  margin-right: 10px;
+}
+
+.info {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.date-updated-on {
+  text-align: center;
+  padding-block: 2rem;
+  opacity: 0.5;
+}
+
+img {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 10px;
+}
+
+.coin-name {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.price-change {
+  font-size: 1.2rem;
+  opacity: 0.5;
+}
+
+.detail-rank {
+  width: 60px;
+  padding-block: 15px;
+  background-color: black;
+  color: white;
+  margin-block: 30px;
+  text-align: center;
+}
+
+.day-range {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 30px;
+}
+
+.day-high {
+  background-color: rgb(177, 218, 177);
+  padding: 4px;
+  border-radius: 6px;
+  font-weight: 900;
+}
+
+.day-low {
+  background-color: rgb(225, 165, 165);
+  padding: 4px;
+  border-radius: 6px;
+  font-weight: 900;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-block: 20px;
+}
+
+.item-child {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.title-p {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+.item-child > value-p {
+  font-weight: 900;
+}
+
+.chart-box {
+  margin: 20px 40px;
+}
+
+.chart-btn {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 20px 40px;
+  overflow-x: auto;
+}
+
+.chart-btn > button {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+}

@@ -1,0 +1,23 @@
+.exchange{
+    width: 80%;
+    margin-inline: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.exchange-card{
+    text-align: center;
+    color: black;
+    width: 200px;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    border-radius: 10px;
+    transition: all 0.3s;
+}
+
+.exchange-card:hover{
+    transform: scale(1.1);
+}
