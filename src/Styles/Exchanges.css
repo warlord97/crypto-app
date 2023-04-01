@@ -18,6 +18,12 @@
     transition: all 0.3s;
 }
 
+.exchange-card >img{
+    width: 90px;
+    height: 90px;
+    margin-inline: auto;
+}
+
 .exchange-card:hover{
     transform: scale(1.1);
 }
